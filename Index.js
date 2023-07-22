@@ -198,6 +198,20 @@ const recipes = [
         generateRecipeCards(filteredRecipes);
       });
 
+      const menuIcon = document.querySelector('.menu-icon');
+const drawerOverlay = document.querySelector('.drawer-overlay');
+const drawer = document.querySelector('.drawer');
+
+menuIcon.addEventListener('click', () => {
+  drawer.classList.toggle('open');
+  drawerOverlay.classList.toggle('show');
+});
+
+drawerOverlay.addEventListener('click', () => {
+  drawer.classList.remove('open');
+  drawerOverlay.classList.remove('show');
+});
+
       
 
       
