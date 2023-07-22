@@ -3,7 +3,7 @@
 
  An interactive recipe catalogue. The catalogue should allow users to view recipes from a predefined array and provide several interactive filtering and sorting options.
 
-  <a href="https://vishalp-08.github.io/blinkit_clone_HTML_CSS/"><strong>➥ Live Demo</strong></a>
+  <a href="https://vishalp-08.github.io/F2-Project_2-/"><strong>➥ Live Demo</strong></a>
 
 </div>
 
@@ -26,13 +26,13 @@ To run **Recipe** locally, run this command on your git bash:
 Linux and macOS:
 
 ```bash
-sudo git clone https://vishalp-08.github.io/blinkit_clone_HTML_CSS/
+sudo git clone https://github.com/vishalP-08/F2-Project_2-.git
 ```
 
 Windows:
 
 ```bash
-git clone https://vishalp-08.github.io/blinkit_clone_HTML_CSS/
+git clone https://github.com/vishalP-08/F2-Project_2-.git
 ```
 
 ### Contact
