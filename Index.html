@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Style.css">
+       
+        <title>CookPal</title>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="navbar-icon">
+      <img src="Images\Cookpal 1.png" alt="Menu">
+    </div>
+    <div class="navbar-items">
+      <a href="#">Home</a>
+      <a href="#">Explore</a>
+      <a href="#">Help</a>
+      <div class="profile-icon">
+        <img src="Images\Profile.png" alt="Menu">
+      </div>
+    </div>
+  </nav>
+
+  
+
+
+
+  <div class="hero-section">
+    <img src="Images\Banner.png" alt="Hero Image">
+  </div>
+
+
+  <div class="search-container">
+    <h1 class="search-heading">Search for Recipe</h1>
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="Search for recipe...">
+      <button type="button" id="searchBtn"><img src="Images\icons8-google-web-search-30.png" alt="Search"></button>
+    </div>
+    <!-- Rest of the footer code -->
+  </div>
+
+
+
+  <div class="toggle-container">
+    <button class="toggle-btn active" id="showAllBtn">Show All</button>
+    <button class="toggle-btn" id="showVegBtn">Show Only Veg</button>
+    <button class="toggle-btn" id="showNonVegBtn">Show Only Non-Veg</button>
+  </div>
+  <div class="rating-filter-container">
+    <input type="radio" name="ratingFilter" id="above4_5" value="4.5">
+    <label for="above4_5">Rating Above 4.5</label>
+    <input type="radio" name="ratingFilter" id="below4_0" value="4.0">
+    <label for="below4_0">Rating Below 4.0</label>
+  </div>
+</div>
+
+<div class="recipe-cards-container" id="recipeCardsContainer">
+  <!-- Recipe cards will be dynamically generated here -->
+</div>
+</div>
+
+<footer class="footer">
+  <div class="footer-left">
+    <img src="Images\Cookpal 1.png" alt="Icon">
+    <p>Cookpal is a recipe website with a wide variety of delicious recipes, easy-to-use search function. Join our community and let's cook together!</p>
+  </div>
+  <div class="footer-center">
+    <div class="footer-section">
+      <h3>Company</h3>
+      <a href="#">About Us</a>
+      <a href="#">Contact Us</a>
+      <a href="#">Careers</a>
+    </div>
+    <div class="footer-section">
+      <h3>Resources</h3>
+      <a href="#">Recipes</a>
+      <a href="#">Tips & Tricks</a>
+      <a href="#">FAQ</a>
+    </div>
+  </div>
+  <div class="footer-right">
+    <img src="Images\Cookpal 1.png" alt="Icon">
+    <p>Ut risus mattis interdum faucibus facilisi. Facilisi purus accumsan aliquam.</p>
+    <input type="text" placeholder="Your Email                      @">
+    <button class="subscribe-btn">Subscribe</button>
+  </div>
+  <div class="footer-social-icons">
+    <a href="#"><img src="Images\download.png" alt="Facebook"></a>
+    <a href="#"><img src="Images\Twitter.png" alt="Twitter"></a>
+    <a href="#"><img src="Images\download (1).png" alt="Instagram"></a>
+  </div>
+</footer>
+
+<!-- Your content goes here -->
+
+
+<script src="Index.js"></script>
+
+</body>
+</html>
